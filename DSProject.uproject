@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2FCB0E0B-46E4-8B75-52EE-3BA652A02BE3}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DSProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
+		}
+	]
+}
